@@ -1,0 +1,489 @@
+*{box-sizing: border-box;}
+
+body {
+  display: flex;
+  flex-flow: column nowrap;
+  max-width: 100vw;
+  height: auto;
+  background: #F5F5F5;
+}
+
+html, body {
+  font-family: verdana, arial, sans-serif;
+  font-size: 1em;
+  text-align: center;
+}
+
+.navbar {
+  display: flex;
+  flex-flow: row-reverse nowrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 100vw;
+  background: white;
+}
+
+.form-inline {
+  display: flex;
+  flex-flow: row nowrap;
+  max-width: 100vw;
+}
+
+.form-control {
+  max-width: 15vw;
+}
+
+.navbar .form-control {
+  border-radius: 0;
+}
+
+.btn {
+  border-radius: 0;
+}
+
+.navbar-toggler {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  border-radius: 0;
+  border: none;
+}
+
+.navbar-toggler:focus, .navbar-toggler:active {
+  outline: none;
+  box-shadow: none;         
+}
+
+.navbar-toggler:active {
+  background: lightgrey;
+}
+
+#navbar1 {
+  padding: 0;										
+  background: white;
+  width: 100vw;
+}
+
+.carousel slide {
+  height: 31em;
+  width: 100vw;
+}
+
+.carousel-inner {
+  top: 5em;   
+  height: 27em;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.carousel-item {
+  color: white;
+  top: 1em;
+}
+
+.fa-heartbeat {
+  content: "\f21e";
+  font-family: "Font Awesome 5 Free";
+  text-shadow: 1px 1px grey;
+  font-weight: 900;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  margin-top: 0.25em;
+}
+
+.fa-cogs {
+  content: "\f085";
+  font-family: "Font Awesome 5 Free";
+  text-shadow: 1px 1px grey;
+  font-weight: 900;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  margin-top: 0.25em; 
+}
+     
+.fa-smile {
+  content: "\f118";
+  font-family: "Font Awesome 5 Free";
+  text-shadow: 1px 1px grey;
+  font-weight: 900;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  margin-top: 0.25em;     
+}
+
+.fa-home {
+  content: "\f015";
+  font-family: "Font Awesome 5 Free";
+  text-shadow: 1px 1px grey;
+  font-weight: 900;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  margin-right: 0.25em;      
+}
+
+.fa-envelope {
+  content: "\f0e0";
+  font-family: "Font Awesome 5 Free";
+  text-shadow: 1px 1px grey;
+  font-weight: 900;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  margin-right: 0.25em;      
+}
+
+.aside-l {
+  display: flex;
+  flex-flow: row nowrap;
+  max-width: 100vw;
+}
+
+aside {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background: lightgrey;
+  width: 20vw;
+  height: auto;
+}
+
+aside form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 19.8vw;
+  height: auto;
+  padding: 1em;
+  position: fixed;
+  top: 10%;
+}
+
+.i-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 80vw;
+  height: auto;
+  padding: 2em;
+  background: #F5F5F5;
+}
+
+main {
+  max-width: 100vw;
+  height: auto;
+  background: #BC8F8F;
+  margin-bottom: 2em;
+}
+
+article {
+  max-width: 100vw;
+  height: auto;
+  background: white;
+}
+
+.trends {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  padding-top: 2em;
+  margin-bottom: 2em;
+  background: white;
+  height: auto;
+}
+
+.post1, .gallery1, .post2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  height: auto;
+  padding: 2em;
+  margin-bottom: 2em;
+  text-align: left;
+}
+
+.t-container {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 2em;
+  padding-top: 2em;
+}
+
+.flamingo, .cactus, .unicorn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: white;
+}
+
+
+.if1, .ic1, .iu1 {
+  width: 90%;
+  padding-bottom: 0.5em;
+}
+
+.if2, .iu2 {
+  width: 100%;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+.g-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+}
+
+.av1 {
+  width: 50%;
+  height: auto;
+  margin: 1em;
+}
+
+footer {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  max-width: 100vw;
+  height: auto;
+  background: lightgrey;
+  padding: 2em;
+  padding-left: 9vw;
+}
+
+.signature, .works, .contacts {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 30vw;
+  height: auto;
+  margin: 1em;
+}
+
+.w-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 0.8em;
+}
+
+.signature {
+  color: grey;
+}
+
+.line {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  width: 65vw;
+  margin-bottom: 1em;
+  color: grey;
+  font-size: 0.8em;
+}
+
+.fa-clock {
+  content: "\f017";
+  font-family: "Font Awesome 5 Free";       
+  font-weight: 900;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  padding-right: 0.3125em;
+}
+
+.fa-folder-open {
+  content: "\f07c";
+  font-family: "Font Awesome 5 Free";         
+  font-weight: 900;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  padding-right: 0.3125em;
+}
+
+.fa-comments {
+  content: "\f086";
+  font-family: "Font Awesome 5 Free";         
+  font-weight: 900;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  padding-right: 0.3125em;
+}
+
+.fa-eye {
+  content: "\f06e";
+  font-family: "Font Awesome 5 Free";        
+  font-weight: 900;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  padding-right: 0.3125em;
+}
+
+.fa-github {
+  content: "\f09b";
+  font-family: "Font Awesome 5 Free";        
+  font-weight: 900;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  padding-bottom: 0.2em;
+}
+
+.textfl2 {
+  padding-top: 0.5em;
+}
+
+.gh1 {
+  width: 40%;
+  height: auto;
+  margin: 1em;
+}
+
+.continue {
+  font-weight: bold;
+  align-self: flex-end;
+  margin-top: 2em;
+  padding-right: 0.5em;
+}
+
+.fa-long-arrow-alt-right {
+  content: "\f30b";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  padding-left: 0.625em;
+}
+
+a {
+  color: black;
+  text-decoration: none; 
+}
+
+a:hover {
+  color: grey;
+  text-decoration: none;
+}
+
+a:active {
+  color: darkgrey;
+  text-decoration: none;
+}
+
+
+
+ @media (max-width: 767px) and (min-width: 300px) {
+
+.navbar-container {
+  top: 0;
+  overflow-y: auto;
+}      
+       
+.navbar {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 100vw;
+  background: white;
+  padding: 0 1em;
+}  
+
+.form-control {
+  max-width: 90vw;
+}
+
+.aside-l {
+  display: flex;
+  flex-direction: column;
+  max-width: 100vw;
+}
+
+aside, aside form {
+  width: 100vw;
+  padding: 1em;
+  order: 2;
+}
+
+aside form {
+  position: relative;
+
+}
+
+.t-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 3em;
+}
+
+
+.flamingo, .cactus, .unicorn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 1.5em;
+}
+
+.i-container {
+  width: 100vw;
+  height: auto;
+  padding: 1em;
+}
+
+.av1 {
+  width: 60%;
+  margin: 1em;
+}
+
+.g-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.g-container img {
+  padding-top: 0.5em;
+}
+
+.line {
+  width: 75vw;
+  font-size: 0.5em;
+}
+
+.i-container h1 {
+  font-size: 1.7em;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 2em;
+}
+
+.signature, .works, .contacts {
+  width: 100vw;
+}
+
+.continue {
+  align-self: flex-end;
+}
+
+h2 {
+font-size: 1.4em;
+}
+
+}
